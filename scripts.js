@@ -1,8 +1,8 @@
+let count = 0;
+
 $('#add').click(function() {
-    $('#ulist').append("<li>" + $('#input').val() + "</li>");
-    $('#input').val('');
+    $('#ulist').append('<li id="todo'+ count +'">' + $('#inputbox').val() + "</li>");
+    $('#inputbox').val('');
+    count++;
 })
 
-$('li').click(function() {
-    $('li').css('text-decoration', 'line-through');
-})
