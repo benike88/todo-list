@@ -5,3 +5,15 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+ul {
+    width: 300px;
+}
+
+.item {
+    display: inline-flex;
+    width: 100%;
+}
+
+.actions {
+    justify-content: flex-end;
